@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+
+  resource_owner:
+    build: resource_owner
+
+  app_developer:
+    build: app_developer
+
+  app_client:
+    build: app_client
+
+  app_server:
+    build: app_server
+
+  authorization_server:
+    build: authorization_server
+
+  resource_server:
+    build: resource_server
